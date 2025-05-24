@@ -1,0 +1,51 @@
+/* 1. Global page settings */
+body {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.5;
+  font-family: 'Times New Roman', serif;
+}
+
+/* 2. Section spacing */
+section {
+  margin-bottom: 2rem;
+}
+
+/* 3. Header styles */
+header h1 { … }
+header p { … }
+
+/* 4. Experience section layout */
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.job-left { /* nothing special needed here, but you can add spacing if desired */ }
+
+.job-right {
+  text-align: right;
+}
+
+.job-title {
+  margin: 0;
+}
+
+.company {
+  display: block;
+  font-weight: bold;
+}
+
+.date, .location {
+  display: block;
+  margin-top: 0.2rem;
+}
+
+/* 5. Other section-specific styles */
+/*   e.g. education, certifications, skills…  */
+
+/* 6. Print styles */
+@media print { … }
